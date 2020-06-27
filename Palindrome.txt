@@ -1,0 +1,28 @@
+Palindrome linkded list
+
+ abcba - > 
+ Elements reading from the forward and backward are the same or 
+ when the elements are read from the middle to the right and to the left are the same
+
+ Two cases 
+ even & odd  list
+  abcba - skip middle 
+  abccba - start from middle and read left and right
+  
+  question:
+
+  Given a linkded list we have say if it is a paliondrome or not 
+
+  in case of linked list we can only move forward not backward
+
+  a -> b -> c -> b -> a [given linked list]
+
+  a -> b -> c -> b -> a [reverse linkded list]
+
+  given_linked list = reverse linked list then return paliondrome
+
+  To increase efficieny 
+  -> Take a stack 
+  -> Take half of the linked list and put it in the stack
+
+
